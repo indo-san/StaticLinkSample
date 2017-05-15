@@ -14,9 +14,9 @@
 		1C6328AD1EB9E74900B58F49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C6328AB1EB9E74900B58F49 /* LaunchScreen.storyboard */; };
 		1C6328B81EB9E74900B58F49 /* StaticLinkSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6328B71EB9E74900B58F49 /* StaticLinkSampleTests.swift */; };
 		1C6328C31EB9E74900B58F49 /* StaticLinkSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6328C21EB9E74900B58F49 /* StaticLinkSampleUITests.swift */; };
-		2A4A33B8EFCBED0C80000C75 /* libPods-StaticLinkSampleUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCECF38F9BB597290744AB7A /* libPods-StaticLinkSampleUITests.a */; };
-		AFA63ADAB90C052D315648DE /* libPods-StaticLinkSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DEB08D48C6DFD3BB4ED412B /* libPods-StaticLinkSample.a */; };
-		FDB0B5AF91A4BA06693598B3 /* libPods-StaticLinkSampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3E0756E1BDADAD02A15028 /* libPods-StaticLinkSampleTests.a */; };
+		237FFB7A4FE6362BC66FD133 /* libPods-StaticLinkSampleUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E92DB878F54B0315B8CF1E /* libPods-StaticLinkSampleUITests.a */; };
+		AFAD0BDE950E2E51BDC99A71 /* libPods-StaticLinkSampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33C7B1955FEB0BF75380DB5B /* libPods-StaticLinkSampleTests.a */; };
+		C7A8489C4152E9BF4973105D /* libPods-StaticLinkSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47FFAF2AB33E5AF1EDD05296 /* libPods-StaticLinkSample.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 
 /* Begin PBXFileReference section */
 		0033AFF37E78914E54B20D58 /* Pods-StaticLinkSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StaticLinkSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StaticLinkSample/Pods-StaticLinkSample.debug.xcconfig"; sourceTree = "<group>"; };
-		0DEB08D48C6DFD3BB4ED412B /* libPods-StaticLinkSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StaticLinkSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C63289F1EB9E74900B58F49 /* StaticLinkSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StaticLinkSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C6328A21EB9E74900B58F49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C6328A41EB9E74900B58F49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,12 +51,14 @@
 		1C6328BE1EB9E74900B58F49 /* StaticLinkSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StaticLinkSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C6328C21EB9E74900B58F49 /* StaticLinkSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticLinkSampleUITests.swift; sourceTree = "<group>"; };
 		1C6328C41EB9E74900B58F49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CA1183F1EBB77BD0046E834 /* StaticLinkSample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StaticLinkSample-Bridging-Header.h"; sourceTree = "<group>"; };
 		251A01DB43BB272378638D2F /* Pods-StaticLinkSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StaticLinkSampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StaticLinkSampleUITests/Pods-StaticLinkSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		33C7B1955FEB0BF75380DB5B /* libPods-StaticLinkSampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StaticLinkSampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47FFAF2AB33E5AF1EDD05296 /* libPods-StaticLinkSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StaticLinkSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		621206C7D3196AED5B1CC8A0 /* Pods-StaticLinkSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StaticLinkSampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StaticLinkSampleUITests/Pods-StaticLinkSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6CB0E284A89432A6755FBBC6 /* Pods-StaticLinkSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StaticLinkSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-StaticLinkSample/Pods-StaticLinkSample.release.xcconfig"; sourceTree = "<group>"; };
 		8C08FF910A2139F194763D47 /* Pods-StaticLinkSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StaticLinkSampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StaticLinkSampleTests/Pods-StaticLinkSampleTests.release.xcconfig"; sourceTree = "<group>"; };
-		8D3E0756E1BDADAD02A15028 /* libPods-StaticLinkSampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StaticLinkSampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CCECF38F9BB597290744AB7A /* libPods-StaticLinkSampleUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StaticLinkSampleUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2E92DB878F54B0315B8CF1E /* libPods-StaticLinkSampleUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StaticLinkSampleUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9BC8936475369C22A8FD936 /* Pods-StaticLinkSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StaticLinkSampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StaticLinkSampleTests/Pods-StaticLinkSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,7 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFA63ADAB90C052D315648DE /* libPods-StaticLinkSample.a in Frameworks */,
+				C7A8489C4152E9BF4973105D /* libPods-StaticLinkSample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDB0B5AF91A4BA06693598B3 /* libPods-StaticLinkSampleTests.a in Frameworks */,
+				AFAD0BDE950E2E51BDC99A71 /* libPods-StaticLinkSampleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A4A33B8EFCBED0C80000C75 /* libPods-StaticLinkSampleUITests.a in Frameworks */,
+				237FFB7A4FE6362BC66FD133 /* libPods-StaticLinkSampleUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +99,7 @@
 				1C6328A01EB9E74900B58F49 /* Products */,
 				CF32CE7835BFCF39E35E7DDF /* Pods */,
 				1EB45D3A5351169368E56C61 /* Frameworks */,
+				1CA1183F1EBB77BD0046E834 /* StaticLinkSample-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -145,9 +147,9 @@
 		1EB45D3A5351169368E56C61 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0DEB08D48C6DFD3BB4ED412B /* libPods-StaticLinkSample.a */,
-				8D3E0756E1BDADAD02A15028 /* libPods-StaticLinkSampleTests.a */,
-				CCECF38F9BB597290744AB7A /* libPods-StaticLinkSampleUITests.a */,
+				47FFAF2AB33E5AF1EDD05296 /* libPods-StaticLinkSample.a */,
+				33C7B1955FEB0BF75380DB5B /* libPods-StaticLinkSampleTests.a */,
+				C2E92DB878F54B0315B8CF1E /* libPods-StaticLinkSampleUITests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -243,6 +245,7 @@
 					1C63289E1EB9E74900B58F49 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = DWCXB79H66;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					1C6328B21EB9E74900B58F49 = {
@@ -317,7 +320,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		156BE49ACC0DDFA99EC9B068 /* [CP] Copy Pods Resources */ = {
@@ -362,7 +365,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		97DE1789283B3C3F223F72AA /* [CP] Check Pods Manifest.lock */ = {
@@ -377,7 +380,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		AC8FC3478FD4AB98FF5583B9 /* [CP] Embed Pods Frameworks */ = {
@@ -601,12 +604,15 @@
 			baseConfigurationReference = 0033AFF37E78914E54B20D58 /* Pods-StaticLinkSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = DWCXB79H66;
 				INFOPLIST_FILE = StaticLinkSample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Ryo-Nakata.StaticLinkSample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StaticLinkSample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -616,12 +622,14 @@
 			baseConfigurationReference = 6CB0E284A89432A6755FBBC6 /* Pods-StaticLinkSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = DWCXB79H66;
 				INFOPLIST_FILE = StaticLinkSample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Ryo-Nakata.StaticLinkSample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StaticLinkSample-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
