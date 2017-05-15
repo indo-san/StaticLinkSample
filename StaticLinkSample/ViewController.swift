@@ -24,6 +24,9 @@ class ViewController: UIViewController {
         print("sample4")
 
         // Dispose of any resources that can be recreated.
+        
+        print("sample5")
+
     }
 
 
