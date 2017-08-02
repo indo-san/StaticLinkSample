@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         print("sample")
         print("sample2")
         print("sample3")
+        print("pullRequestSample")
 
         // Do any additional setup after loading the view, typically from a nib.
     }
